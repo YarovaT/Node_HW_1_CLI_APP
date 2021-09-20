@@ -1,0 +1,24 @@
+{
+  "name": "node_hw_1_cli_app",
+  "version": "1.0.0",
+  "description": "Node_js_Homework_1.Домашнее задание 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YarovaT/Node_HW_1_CLI_APP.git"
+  },
+  "author": "YarovaT <andronikova11@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YarovaT/Node_HW_1_CLI_APP/issues"
+  },
+  "homepage": "https://github.com/YarovaT/Node_HW_1_CLI_APP.git",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
