@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Node_js_Homework_1.Домашнее задание 1",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
@@ -20,5 +21,10 @@
   "homepage": "https://github.com/YarovaT/Node_HW_1_CLI_APP.git",
   "devDependencies": {
     "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.2.0",
+    "yargs": "^17.2.0"
   }
 }
